@@ -85,3 +85,15 @@ This template comes with [Tailwind CSS](https://tailwindcss.com/) already config
 ---
 
 Built with ❤️ using React Router.
+
+## GitHub Pages deployment
+
+This repo includes a GitHub Actions workflow that builds the project and publishes `build/client` to the `gh-pages` branch on push to `main`.
+
+Steps:
+
+1. Push the repository to GitHub and make sure the default branch is `main`.
+2. The action `.github/workflows/gh-pages.yml` will run on push and publish the site.
+3. In GitHub Settings → Pages, set the source to the `gh-pages` branch (the workflow will create it).
+
+Note: `vite.config.ts` sets `base: './'` so assets are relative and the site will work when served from GitHub Pages.
