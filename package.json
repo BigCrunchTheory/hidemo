@@ -2,12 +2,10 @@
   "name": "my-portfolio",
   "private": true,
   "type": "module",
-  "scripts": {
-    "build": "react-router build",
-    "dev": "react-router dev",
-    "start": "react-router-serve ./build/server/index.js",
-    "typecheck": "react-router typegen && tsc"
-  },
+"scripts": {
+  "build": "vite build",
+  "dev": "vite"
+}
   "dependencies": {
     "@react-router/node": "^7.7.1",
     "@react-router/serve": "^7.7.1",
