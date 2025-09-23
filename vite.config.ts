@@ -5,5 +5,5 @@ import tsconfigPaths from "vite-tsconfig-paths";
 
 export default defineConfig({
   base: "/hidemo/", // имя твоего репо
-  plugins: [react()],
+  plugins: [react(), tailwindcss(), tsconfigPaths()]
 });
