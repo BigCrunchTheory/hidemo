@@ -5,7 +5,7 @@
 "scripts": {
   "build": "vite build",
   "dev": "vite"
-}
+},
   "dependencies": {
     "@react-router/node": "^7.7.1",
     "@react-router/serve": "^7.7.1",
