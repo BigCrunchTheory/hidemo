@@ -2,13 +2,13 @@
   "name": "my-portfolio",
   "private": true,
   "type": "module",
-"scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "preview": "vite preview",
-  "start": "rr serve ./build/client"
-}
-},
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "rr serve ./build/client",
+    "deploy": "gh-pages -d build/client"
+  },
   "dependencies": {
     "@react-router/node": "^7.7.1",
     "@react-router/serve": "^7.7.1",
@@ -29,6 +29,7 @@
     "tailwindcss": "^4.1.11",
     "typescript": "^5.8.3",
     "vite": "^6.3.3",
-    "vite-tsconfig-paths": "^5.1.4"
+    "vite-tsconfig-paths": "^5.1.4",
+    "gh-pages": "^6.1.1"
   }
 }
