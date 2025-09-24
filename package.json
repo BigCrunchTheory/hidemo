@@ -3,8 +3,11 @@
   "private": true,
   "type": "module",
 "scripts": {
+  "dev": "vite",
   "build": "vite build",
-  "dev": "vite"
+  "preview": "vite preview",
+  "start": "rr serve ./build/client"
+}
 },
   "dependencies": {
     "@react-router/node": "^7.7.1",
